@@ -152,5 +152,5 @@ c. Klik New app
 
 # Link Live Demo
 
- 
+ https://dwulanmluap-ctwzunzjtnapyywxstwtqf.streamlit.app/
 
