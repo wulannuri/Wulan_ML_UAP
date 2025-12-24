@@ -1,4 +1,4 @@
-# Deteksi Ekpresi Wajah 
+# Deteksi Ekpresi Wajah (disgust, sad dan happy)
 
 # Deskripsi Projek
 Proyek ini merupakan aplikasi **deteksi emosi berdasarkan ekspresi wajah** yang menggunakan metode **Deep Learning** untuk mengklasifikasikan emosi manusia dari citra wajah. Sistem dibangun dengan memanfaatkan **Convolutional Neural Network (CNN)** menggunakan beberapa arsitektur model, yaitu **Base CNN, VGG19, dan MobileNet**. Aplikasi berbasis web ini dikembangkan menggunakan **Streamlit** sehingga pengguna dapat mengunggah gambar wajah dan memperoleh hasil prediksi emosi berupa label **disgust, happy, atau sad** beserta nilai probabilitasnya. Proyek ini bertujuan untuk menerapkan konsep **computer vision** dalam analisis emosi manusia secara otomatis dan interaktif.    
@@ -43,5 +43,41 @@ MobileNet adalah arsitektur CNN yang dirancang agar ringan dan efisien dengan me
 
 
 # Hasil dan Analisis Perbandingan
+<img width="1200" height="400" alt="Figure_1" src="https://github.com/user-attachments/assets/3cda715d-b8de-4443-8a9b-5fafa7401827" />
+Berdasarkan grafik hasil pelatihan model Base CNN, akurasi data training meningkat secara konsisten, menunjukkan bahwa model mampu mempelajari pola pada data latih dengan baik. Namun, akurasi pada data validasi cenderung lebih rendah dan tidak meningkat secara signifikan, yang mengindikasikan keterbatasan model dalam melakukan generalisasi.
+Selain itu, training loss mengalami penurunan yang jelas, sedangkan validation loss relatif stagnan. Kondisi ini menunjukkan adanya overfitting, di mana model terlalu menyesuaikan diri dengan data training. Oleh karena itu, Base CNN cukup baik sebagai model baseline, tetapi diperlukan metode yang lebih kuat seperti transfer learning untuk meningkatkan performa pada data validasi.
+
+
+
+| Model | Akurasi | Hasil Analisi |
+|--------|---------|---------|
+| Base CNN | Data 2  | Data 3  |
+| VGG19 | Data 5  | Data 6  |
+| MobileNet | Data 2  | Data 3  |
 
 # Panduan menjalankan sistem website secara lokal 
+1. Pastikan struktur folder sudah benar
+<img width="252" height="294" alt="image" src="https://github.com/user-attachments/assets/284a465e-6afa-40a7-99fa-bae84b9f189d" />
+
+2. Buat Requirement.txt
+<img width="174" height="160" alt="image" src="https://github.com/user-attachments/assets/98e422a3-8589-44d7-84af-3320cda4d6b6" />
+
+3. kemudian pastikan semua path model sudah sesuai
+4. Push folder kedalam github
+<img width="449" height="111" alt="image" src="https://github.com/user-attachments/assets/76cd17f2-7f67-4d16-ad3b-9bc9cf010770" />
+
+5. DEPLOY KE STREAMLIT CLOUD 🚀
+Langkahnya:
+Buka 👉 https://streamlit.io/cloud
+Klik Sign in with GitHub
+Klik New app
+Isi:
+Repository → repo Anda
+Branch → main
+Main file path → app.py
+Klik Deploy
+⏳ Tunggu ±1–3 menit (pertama kali lebih lama)
+
+
+ 
+
