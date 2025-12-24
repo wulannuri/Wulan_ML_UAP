@@ -67,16 +67,21 @@ Selain itu, training loss mengalami penurunan yang jelas, sedangkan validation l
 <img width="449" height="111" alt="image" src="https://github.com/user-attachments/assets/76cd17f2-7f67-4d16-ad3b-9bc9cf010770" />
 
 5. DEPLOY KE STREAMLIT CLOUD 🚀
+
 Langkahnya:
-Buka 👉 https://streamlit.io/cloud
-Klik Sign in with GitHub
-Klik New app
-Isi:
-Repository → repo Anda
-Branch → main
-Main file path → app.py
-Klik Deploy
-⏳ Tunggu ±1–3 menit (pertama kali lebih lama)
+
+a. Buka 👉 https://streamlit.io/cloud
+
+b. Klik Sign in with GitHub
+
+c. Klik New app
+
+  Isi:
+  Repository → repo Anda
+  Branch → main
+  Main file path → app.py
+  Klik Deploy
+  ⏳ Tunggu ±1–3 menit (pertama kali lebih lama)
 
 
  
