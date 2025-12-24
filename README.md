@@ -1,6 +1,6 @@
 # Deteksi Ekpresi Wajah 
 
-                                                      # Deskripsi Projek
+# Deskripsi Projek
 Proyek ini merupakan aplikasi **deteksi emosi berdasarkan ekspresi wajah** yang menggunakan metode **Deep Learning** untuk mengklasifikasikan emosi manusia dari citra wajah. Sistem dibangun dengan memanfaatkan **Convolutional Neural Network (CNN)** menggunakan beberapa arsitektur model, yaitu **Base CNN, VGG19, dan MobileNet**. Aplikasi berbasis web ini dikembangkan menggunakan **Streamlit** sehingga pengguna dapat mengunggah gambar wajah dan memperoleh hasil prediksi emosi berupa label **disgust, happy, atau sad** beserta nilai probabilitasnya. Proyek ini bertujuan untuk menerapkan konsep **computer vision** dalam analisis emosi manusia secara otomatis dan interaktif.    
 
 
@@ -29,7 +29,7 @@ facial-expression). Dari keseluruhan data yang tersedia, peneliti menggunakan da
 sebanyak 3.015 citra wajah manusia. Data tersebut diklasifikasikan ke dalam tiga 
 kelas, yaitu happy, sad, dan disgust. 
 
-                                    # PEMODELAN
+# PEMODELAN
 Model yang digunakan dalam proyek ini meliputi:
 1. Base Convolutional Neural Network (Base CNN)
 Base CNN merupakan model jaringan saraf konvolusional sederhana yang dibangun dari beberapa lapisan Convolution, Pooling, dan Fully Connected. Model ini digunakan sebagai model dasar untuk memahami proses ekstraksi fitur dari citra wajah. Base CNN memiliki arsitektur yang relatif ringan sehingga mudah dilatih dan cepat dalam proses inferensi. Model ini berfungsi sebagai pembanding awal terhadap model yang memiliki arsitektur lebih kompleks.
