@@ -24,8 +24,7 @@ Preprocessing data citra diimplementasikan secara modular pada file data/preproc
 # 📊 Sumber Dataset 📊
 Dataset yang digunakan dalam projek ini berasal dari platfrom yang 
 bersifat open source bernama kaggle. Peneliti menggunakan dataset berjudul MMA 
-Facial Expression Dataset (https://www.kaggle.com/datasets/mahmoudima/mma
-facial-expression). Dari keseluruhan data yang tersedia, peneliti menggunakan data 
+Facial Expression Dataset (https://www.kaggle.com/datasets/mahmoudima/mma-facial-expression). Dari keseluruhan data yang tersedia, peneliti menggunakan data 
 sebanyak 3.015 citra wajah manusia. Data tersebut diklasifikasikan ke dalam tiga 
 kelas, yaitu happy, sad, dan disgust. 
 
