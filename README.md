@@ -66,7 +66,7 @@ Selain itu, training loss mengalami penurunan yang jelas, sedangkan validation l
 
 
 
-2. VGG16
+2. VGG19
 
 <img width="1200" height="400" alt="Figure_2" src="https://github.com/user-attachments/assets/7a27cf1f-ba40-44af-8899-0f3e60fa5acb" />
 
